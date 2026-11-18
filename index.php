@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <button class="btn" type="submit">Log In</button>
         <a class="switch" href="register.php">No account yet? Sign up</a>
-        <small class="hint">Demo: admin / admin123 &nbsp;|&nbsp; staff / staff123</small>
+        <!-- <small class="hint">Demo: admin / admin123 &nbsp;|&nbsp; staff / staff123</small> -->
     </form>
 
     <script src="assets/paws.js?v=<?= filemtime(__DIR__ . '/assets/paws.js') ?>"></script>
